@@ -39,7 +39,6 @@ about:
   license: MIT
   license_file:
     - LICENSE
-    - examples/copilot-openaI-mongodb-atlas-vector-search/LICENSE
   home: https://github.com/CopilotKit/CopilotKit
   summary: "CopilotKit is an open-source framework for building AI copilots that assist users in various tasks by leveraging large language models and other AI technologies."
 
