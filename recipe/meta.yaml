@@ -1,5 +1,5 @@
 {% set name = "copilotkit" %}
-{% set version = "1.56.4" %}
+{% set version = "1.57.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/CopilotKit/CopilotKit/archive/v{{ version }}.tar.gz
-  sha256: f8a5c11861afb38ec9d112bd8076302ee5d04a54d3e726fdab87eb7366c55779
+  sha256: e308fb515e9116d26b0d3beb40be25dae2cad569d9cafc619b76690aa2d26837
 
 build:
   noarch: python
@@ -23,8 +23,8 @@ requirements:
     - python >={{ python_min }}
     - langgraph >=0.3.25,<2.0
     - langchain >=0.3.0
-    - ag-ui-langgraph >=0.0.29,<0.0.32
-    - ag-ui-protocol >=0.1.11
+    - ag-ui-langgraph >=0.0.35
+    - ag-ui-protocol >=0.1.15
     - fastapi >=0.115.0,<1.0.0
     - partialjson >=0.0.8,<0.0.9
     - toml >=0.10.2,<0.11.0
