@@ -1,5 +1,5 @@
 {% set name = "copilotkit" %}
-{% set version = "1.74.0" %}
+{% set version = "1.75.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/CopilotKit/CopilotKit/archive/v{{ version }}.tar.gz
-  sha256: ae28176680bbf9ed839f2233997a46ebe6009d30d5f50d6cfae788b543dbea1b
+  sha256: ede0ba733f2f9d73aea5ef8dada73de2844adeb8dd26c5aa7ac81bd8033a0427
 
 build:
   noarch: python
